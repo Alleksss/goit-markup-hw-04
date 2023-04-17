@@ -210,6 +210,7 @@ img {
 }
 .text-team {
   font-size: 16px;
+  margin-bottom: 8px;
 }
 .sec-benef {
   padding: 120px 0;
@@ -219,7 +220,24 @@ img {
   text-align: center;
     
 }
-
+/*Socials icons*/
+.socials {
+  justify-content: center;
+  gap: 24px;
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-text-fil-btn);
+  border-radius: 50%;
+}
+.socials-link:hover, 
+.socials-link:focus {
+  background-color: var(--hover);
+}
 /*Portfolio*/
 .portfolio-sec {
   padding: 96px 0 120px;
