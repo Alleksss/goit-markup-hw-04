@@ -249,7 +249,7 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.social-icon {
+.socials-icon {
   fill: var(--bg-fil-btn);
 }
 .socials-link, 
